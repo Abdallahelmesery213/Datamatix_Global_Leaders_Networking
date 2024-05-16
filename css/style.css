@@ -216,6 +216,48 @@ header .nav3 ul li:not(:last-child)::after {
     font-family: bruumBoldFont;
     margin: 40px 0;
 }
+.cover{
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cover h5{
+    position: absolute;
+    bottom: 11%;
+    left: 15%;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.cover.coverLeft{
+    background-position: left;
+}
+.cover.coverRight{
+    background-position: right;
+    direction: rtl;
+}
+.cover.cover2 h5,
+.cover.cover4 h5 {
+    bottom: 15%;
+    right: 15%;
+}
+.cover.cover3 h5 {
+    bottom: 15%;
+}
+.cover.cover1{
+    background-image: url(./../images/img_2-03.jpg);
+}
+.cover.cover2{
+    background-image: url(./../images/img_3-03.jpg);
+}
+.cover.cover3{
+    background-image: url(./../images/img_4-03.jpg);
+}
+.cover.cover4{
+    background-image: url(./../images/img_5-03.jpg);
+}
 /* start banners */
 .banner{
     /* border-bottom: 10px solid #3f3f3f; */

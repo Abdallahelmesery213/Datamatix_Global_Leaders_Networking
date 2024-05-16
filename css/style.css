@@ -972,6 +972,13 @@ footer form .btn{
         width: 100%;
         margin: 20px auto;
     }
+    .cover h5 {
+        left: 25%;
+        font-size: 20px;
+    }
+    .cover.cover2 h5, .cover.cover4 h5 {
+        right: 25%;
+    }
     .banner .over {
         position: absolute;
         left: 0;
@@ -1082,6 +1089,12 @@ footer form .btn{
         padding: 5px 10px;
     }
 }
+@media only screen and (max-width: 580px) {
+    .cover h5{
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
 @media only screen and (max-width: 575px) {
     .nav2, .nav3{
         padding: 20px 0;
@@ -1130,6 +1143,12 @@ footer form .btn{
     }
     header .right-part .nav1 p {
         font-size: 14px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .cover.cover2 h5, .cover.cover4 h5 {
+        right: 35%;
+        bottom: 11%;
     }
 }
 
